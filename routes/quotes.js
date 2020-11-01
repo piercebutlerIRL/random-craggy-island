@@ -16,7 +16,7 @@ router.get('/', async (req, res) => {
 router.get('/random', async (req, res) => {
   const quotes = await Quote.find({});
   const count = await Quote.countDocuments({}, (err, count) => count);
-  const randomNum = Math.floor(Math.random() * count);
+  const randomNum = Math.floor(Math.random() * count + 1);
   try {
     res.send(quotes[randomNum]);
   } catch (error) {
