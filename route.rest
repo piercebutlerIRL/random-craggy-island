@@ -1,0 +1,16 @@
+GET http://localhost:3000/
+###
+
+POST http://localhost:3000/
+Content-Type: application/json
+
+{
+    "quote": "Nuns! NUNS! Reverse! Reverse! Reverse! Reverse!",
+    "series": "1",
+    "episode": "5",
+    "episode_name": "And God Created Woman",
+    "character": "Father Jack",
+    "character_img": "https://vignette.wikia.nocookie.net/fatherted/images/4/47/Hackett.jpg/revision/latest?cb=20140226154922",
+    "synopsis": "Father Ted struggles with a crush he has for a lady visitor, and the arrival of a group of nuns.",
+    "aired": "1995-05-19T00:00:01.001Z"
+}
